@@ -1,0 +1,65 @@
+.loginBtn {
+  width: 100%;
+  background-color: #6c5ce7;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all 0.15s linear;
+
+  &:hover {
+    background-color: #5c4ec7;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.signupBtn {
+  width: 100%;
+  background-color: #6c5ce7;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  border-radius: 3px;
+  font-weight: 600;
+  transition: all 0.15s linear;
+
+  &:hover {
+    background-color: #5c4ec7;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}
+
+.shuffleButton {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  padding: 8px 32px;
+  background-color: #6c5ce7;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  transition: all 0.15s linear;
+
+  .icon {
+    width: 20px;
+    filter: invert(1);
+    margin-left: 6px;
+  }
+
+  &:hover {
+    background-color: #5c4ec7;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+  }
+}

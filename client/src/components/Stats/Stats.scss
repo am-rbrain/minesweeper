@@ -1,0 +1,27 @@
+.stats {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: 16px 0;
+
+  .statWrapper {
+    flex: 0 0 33.33%;
+
+    .statBox {
+      border: 1px solid #fff;
+      background-color: #6c5ce7;
+      color: #ffffff;
+      padding: 16px;
+      text-align: center;
+
+      .statTitle {
+        font-size: 18px;
+      }
+
+      .statValue {
+        font-size: 34px;
+        font-weight: 700;
+      }
+    }
+  }
+}

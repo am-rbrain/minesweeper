@@ -1,0 +1,21 @@
+.rc-pagination {
+  padding: 32px 0;
+
+  .rc-pagination-item {
+    border: 1px solid #6c5ce7;
+  }
+
+  .rc-pagination-item-active {
+    border: none;
+    outline: none;
+
+    a {
+      background-color: #6c5ce7;
+      color: #fff;
+
+      &:hover {
+        color: #ffffff;
+      }
+    }
+  }
+}

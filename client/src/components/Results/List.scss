@@ -1,0 +1,31 @@
+.list {
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  position: relative;
+
+  .item {
+    background-color: #6c5ce7;
+    border: 1px solid #ffffff;
+    display: flex;
+    display: flex;
+    align-items: center;
+    border-radius: 3px;
+
+    .boxEmoji {
+      flex: 0 0 4%;
+      padding: 12px 12px;
+    }
+
+    .box {
+      flex: 0 0 24%;
+      padding: 12px;
+
+      .label {
+        margin: 0;
+        color: #ffffff;
+      }
+    }
+  }
+}
